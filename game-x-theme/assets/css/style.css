@@ -1,0 +1,35 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f0f0f;
+  color: #fff;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: #1a1a1a;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+}
+.hero {
+  padding: 100px 20px;
+  text-align: center;
+  background: linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b);
+}
+.btn {
+  background: #fff;
+  color: #000;
+  padding: 10px 20px;
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 20px;
+}
